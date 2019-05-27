@@ -1,0 +1,192 @@
+/*!
+ * Style Start55
+ */
+
+
+ /*  @import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');*/
+/*  @import url('../fonts/oleo_script/OleoScript-Bold.ttf');
+  @import url('../fonts/oleo_script/OleoScript-Regular.ttf');
+  */
+
+  @import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+  body {
+   --start55-cor-orange-principal: #FF7326;
+   --start55-cor-orange-secondary: #FFA456;
+
+   --start55-cor-blue-principal: #0962BA; 
+
+   --start55-cor-gray-principal: #FAFAFA;
+   --start55-cor-white-principal: #ffffff;
+   --start55-cor-black-principal: #000000;
+ }
+
+ body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-light {
+  background: var(--start55-cor-gray-principal);
+}
+
+.btn.btn-secondary {
+  background-color: var(--start55-cor-orange-principal);
+  color: var(--start55-cor-white-principal);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-weight: bold;
+
+}
+
+.btn.btn-secondary:hover {
+
+  background-color: var(--start55-cor-white-principal);
+  color: var(--start55-cor-orange-principal);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+  color: var(--start55-cor-white-principal);
+  font-weight: 350;
+  font-size: 30px;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+ font-family: 'Oswald', sans-serif; 
+}
+
+.btn.btn-primary {
+  background-color: var(--start55-cor-orange-principal);
+  border: 1px solid var(--start55-cor-orange-principal);
+  color: var(--start55-cor-white-principal);
+}
+
+.btn.btn-primary:hover {
+  border: 1px solid var(--start55-cor-orange-principal);
+  color: var(--start55-cor-orange-principal);
+}
+
+.testimony-section .owl-dots .owl-dot.active {
+  background: var(--start55-cor-orange-principal);
+}
+
+.ftco-departments .nav-pills .nav-link.active {
+ background: var(--start55-cor-orange-principal); 
+}
+
+.ftco-departments .nav-pills .nav-link:hover {
+ background: var(--start55-cor-orange-principal); 
+}
+
+.ftco-departments .nav-pills .nav-link:after {
+  border-color: var(--start55-cor-orange-principal) transparent transparent transparent ; 
+}
+
+.ftco-departments .nav-pills .nav-link {
+ color: var(--start55-cor-orange-principal);  
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+ color: var(--start55-cor-orange-principal); 
+}
+
+.pl-md-0, .px-md-0 {
+  width: 100%;
+}
+
+.testimony-wrap .quote i {
+ color: var(--start55-cor-orange-principal);   
+}
+
+.testimony-wrap .position {
+ color: var(--start55-cor-orange-principal);   
+
+}
+
+.heading-section h2 {
+  font-family: 'Oleo Script', cursive;
+  color: var(--start55-cor-orange-principal);   
+  font-size: 40px;
+}
+
+.ftco-departments .departments .services-2 .icon {
+ border: 2px solid var(--start55-cor-orange-principal);
+ background: var(--start55-cor-orange-principal); 
+}
+
+.ftco-intro .overlay {
+ background: var(--start55-cor-blue-principal);  
+}
+
+.staff .text h3 {
+  color: var(--start55-cor-black-principal);
+
+}
+
+.staff:hover .text h3 {
+  color: var(--start55-cor-orange-principal);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 span { 
+ color: var(--start55-cor-orange-principal);
+ font-family: 'Oleo Script', cursive;
+ font-size: 80px;
+ text-shadow: 0px 1px 5px var(--start55-cor-black-principal);
+}
+
+.pricing-entry {
+ color: var(--start55-cor-blue-principal); 
+}
+
+.pricing-entry p .price {
+ color: var(--start55-cor-blue-principal); 
+}
+
+.pricing-entry p .per {
+ color: var(--start55-cor-blue-principal); 
+}
+
+#section-counter:after {
+  background: var(--start55-cor-blue-principal);
+}
+
+.ftco-animate {
+  text-align: center;
+}
+
+.ebook-cover {
+  -webkit-box-shadow: 3px 3px 50px 0px rgba(255,255,255,0.8);
+  -moz-box-shadow: 3px 3px 50px 0px rgba(255,255,255,0.8);
+  box-shadow: 3px 3px 50px 0px rgba(255,255,255,0.8);
+}
+
+.ftco-footer {
+  background: var(--start55-cor-black-principal);
+}
+
+.owl-carousel.owl-drag .owl-item {
+  touch-action: auto;
+  -ms-touch-action: auto;
+}
+
+.ftco-no-pt {
+  padding: 7em 0;
+}
+
+/*Conditional Styles*/
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 600px) {
+  .owl-carousel.home-slider .slider-item .slider-text h1 span { 
+   padding-left: 1em;
+   font-size: 110px;
+ }
+}
