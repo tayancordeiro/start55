@@ -16,9 +16,7 @@
   body {
    --start55-cor-orange-principal: #FF7326;
    --start55-cor-orange-secondary: #FFA456;
-
    --start55-cor-blue-principal: #0962BA; 
-
    --start55-cor-gray-principal: #FAFAFA;
    --start55-cor-white-principal: #ffffff;
    --start55-cor-black-principal: #000000;
@@ -179,6 +177,20 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .ftco-no-pt {
   padding: 7em 0;
+}
+
+.name {
+  text-align: right;
+  font-size: 15px;
+  color: var(--start55-cor-black-principal);
+}
+
+.blog-entry .text .heading a {
+  color: var(--start55-cor-orange-principal-principal);
+}
+
+.case_detail {
+  text-align: left; 
 }
 
 /*Conditional Styles*/

@@ -18,9 +18,9 @@
 							<div class="collapse navbar-collapse" id="ftco-nav">
 								<ul class="navbar-nav mr-auto">
 									<li class="nav-item active"><a href="index.php" class="nav-link pl-0">Início</a></li>
-									<li class="nav-item"><a href="#testimonials" class="nav-link">Sonhos Realizados</a></li>
 									<li class="nav-item"><a href="#solution" class="nav-link">Solução</a></li>
-									<li class="nav-item"><a href="#team" class="nav-link">Nosso Time</a></li>
+									<li class="nav-item"><a href="#testimonials" class="nav-link">Sonhos Realizados</a></li>
+									<li class="nav-item"><a href="#recomendations" class="nav-link">Depoimentos</a></li>
 								</ul>
 							</div>
 						</div>
